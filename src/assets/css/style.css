@@ -1,0 +1,37 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+.nav-link {
+    color: #fff !important;
+}
+
+.nav-link:hover {
+    color: #3FC1C9 !important;
+}
+.header {
+    background-color: #000;
+    padding: 50px;
+}
+.container_header {
+    margin: 50px;
+    color: #fff;
+    min-height: 400px;
+}
+.container_main {
+    margin: 30px;
+    color: #000 !important;
+    min-height: 600px;
+}
+.row_tec p {
+    margin-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.row_tec svg {
+    margin-bottom: 5px;
+}
+.row_tec .col:hover {
+    background-color: #2f3d4a !important;
+    cursor: pointer;
+}
