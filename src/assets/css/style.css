@@ -2,6 +2,10 @@
     font-family: Arial, Helvetica, sans-serif;
     text-align: justify;
 }
+::selection {
+    background-color: #3FC1C9;
+    color: #000;
+}
 .nav-link {
     color: #fff !important;
 }
@@ -34,4 +38,13 @@
 .row_tec .col:hover {
     background-color: #2f3d4a !important;
     cursor: pointer;
+    box-shadow: 10px 5px 5px #3FC1C9;
+}
+.rede_social a:hover {
+    background-color: #3FC1C9;
+    border: #3FC1C9;
+}
+.foto_perfil {
+    height: auto;
+    max-width: 100%;
 }
