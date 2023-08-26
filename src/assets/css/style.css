@@ -38,11 +38,13 @@
 .row_tec .col:hover {
     background-color: #2f3d4a !important;
     cursor: pointer;
-    box-shadow: 10px 5px 5px #3FC1C9;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
 }
 .rede_social a:hover {
     background-color: #3FC1C9;
-    border: #3FC1C9;
+    border: 10px #3FC1C9;
 }
 .foto_perfil {
     height: auto;
