@@ -42,6 +42,12 @@
     -ms-transform: scale(1.1);
     transform: scale(1.1);
 }
+.card:hover {
+    cursor: pointer;
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+}
 .rede_social a:hover {
     background-color: #3FC1C9;
     border: 10px #3FC1C9;
