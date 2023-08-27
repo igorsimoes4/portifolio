@@ -14,7 +14,8 @@ async function fetchRepositories() {
 
             if(coverFile) {
                 const repoCard = document.createElement('div');
-                repoCard.className = 'col card g-3 p-3 bg-dark';
+                repoCard.className = 'col card g-3 p-3';
+                repoCard.style.backgroundColor = "#160d18";
                 repoCard.style.width = '18rem';
 
                 const cardImg = document.createElement('img');
@@ -33,7 +34,7 @@ async function fetchRepositories() {
                 const repoLink = document.createElement('a');
                 repoLink.href = repo.html_url;
                 repoLink.target = '_blank';
-                repoLink.style.color = '#3FC1C9';
+                repoLink.style.color = '#1ca39e';
                 repoLink.textContent = "Link do Github do " + repo.name;
 
                 cardBody.appendChild(cardText);
