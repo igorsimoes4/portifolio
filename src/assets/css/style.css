@@ -74,3 +74,43 @@
 .title-projetos {
     color: var(--branco);
 }
+.custom-shape-divider-bottom-1693098892 {
+    background-color: var(--azul-esverdeado);
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1693098892 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 152px;
+}
+
+.custom-shape-divider-bottom-1693098892 .shape-fill {
+    fill: #212529;
+}
+
+.custom-shape-divider-top-1693099373 {
+    
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1693099373 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 152px;
+}
+
+.custom-shape-divider-top-1693099373 .shape-fill {
+    fill: var(--azul);
+}
