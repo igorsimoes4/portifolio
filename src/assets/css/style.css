@@ -14,6 +14,7 @@
     background-color: var(--verde-claro);
     color: var(--preto);
 }
+
 .nav-link {
     color: var(--branco) !important;
 }
@@ -34,6 +35,7 @@
     margin: 30px;
     color: var(--preto) !important;
     min-height: 600px;
+    padding-left: 50px !important;
 }
 .row_tec p {
     margin-top: 5px;
@@ -73,6 +75,7 @@
 }
 .title-projetos {
     color: var(--branco);
+    padding-left: 50px !important;
 }
 .custom-shape-divider-bottom-1693098892 {
     background-color: var(--azul-esverdeado);
@@ -113,4 +116,28 @@
 
 .custom-shape-divider-top-1693099373 .shape-fill {
     fill: var(--azul);
+}
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.footer_copy {
+    color: var(--branco);
+    line-height: 100px;
+}
+
+@media screen and (max-width: 800px)  {
+    .footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+    .navbar>.container {
+        flex-direction: column;
+    }    
 }
