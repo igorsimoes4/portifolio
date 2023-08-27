@@ -35,7 +35,10 @@
     margin: 30px;
     color: var(--preto) !important;
     min-height: 600px;
+}
+.title_tecnologia {
     padding-left: 50px !important;
+    margin-bottom: 50px;
 }
 .row_tec p {
     margin-top: 5px;
@@ -140,4 +143,10 @@
     .navbar>.container {
         flex-direction: column;
     }    
+    .row_tec .col:hover {
+        cursor: pointer;
+        -webkit-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+        transform: scale(1.05);
+    }
 }
