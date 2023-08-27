@@ -44,7 +44,7 @@
     margin-bottom: 5px;
 }
 .row_tec .col:hover {
-    background-color: var(--verde-claro) !important;
+    background-color: var(--azul-esverdeado) !important;
     cursor: pointer;
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
