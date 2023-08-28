@@ -149,4 +149,7 @@
         -ms-transform: scale(1.05);
         transform: scale(1.05);
     }
+    .col-md-4 {
+        width: 100% !important;
+    }
 }
