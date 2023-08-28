@@ -5,11 +5,64 @@
     --azul-esverdeado: #09456c;
     --azul: #23145b;
     --branco: #ffffff;
+    --cinza: #dcdcdc86;
 }
 * {
     font-family: Arial, Helvetica, sans-serif;
     text-align: justify;
 }
+/* Para navegadores WebKit (Google Chrome, Safari) */
+/* Largura da scrollbar */
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+/* Fundo da scrollbar */
+::-webkit-scrollbar-track {
+    background: var(--cinza); /* Cor cinza claro */
+}
+
+/* Cor da área visível da scrollbar */
+::-webkit-scrollbar-thumb {
+    background: var(--verde-claro);
+    border-radius: 6px;
+}
+
+/* Para navegadores Mozilla Firefox */
+/* Largura da scrollbar */
+::-moz-scrollbar {
+    width: 12px;
+}
+
+/* Fundo da scrollbar */
+::-moz-scrollbar-track {
+    background: var(--cinza); /* Cor cinza claro */
+}
+
+/* Cor da área visível da scrollbar */
+::-moz-scrollbar-thumb {
+    background: var(--verde-claro);
+    border-radius: 6px;
+}
+
+/* Para navegadores Microsoft (Edge, IE) */
+/* Largura da scrollbar */
+::-ms-scrollbar {
+    width: 12px;
+}
+
+/* Fundo da scrollbar */
+::-ms-scrollbar-track {
+    background: var(--cinza); /* Cor cinza claro */
+}
+
+/* Cor da área visível da scrollbar */
+::-ms-scrollbar-thumb {
+    background: var(--verde-claro);
+    border-radius: 6px;
+}
+
+
 ::selection {
     background-color: var(--verde-claro);
     color: var(--preto);
