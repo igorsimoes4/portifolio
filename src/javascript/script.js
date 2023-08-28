@@ -53,3 +53,7 @@ async function fetchRepositories() {
 
 fetchRepositories();
 
+ // Inicia o efeito de máquina de escrever
+
+
+
