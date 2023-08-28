@@ -1,4 +1,4 @@
-const username = 'igorsimoes4'; // Substitua pelo seu nome de usuário do GitHub
+const username = 'igorsimoes4'; 
 const repoList = document.getElementById('repo-list');
 
 async function fetchRepositories() {
@@ -29,13 +29,13 @@ async function fetchRepositories() {
                 const cardText = document.createElement('p');
                 cardText.className = 'card-text';
                 cardText.style.color = '#fff';
-                cardText.textContent = repo.description || 'No description available';
+                cardText.textContent = repo.description || 'Descrição não disponível';
 
                 const repoLink = document.createElement('a');
                 repoLink.href = repo.html_url;
                 repoLink.target = '_blank';
                 repoLink.style.color = '#1ca39e';
-                repoLink.textContent = "Link do Github do " + repo.name;
+                repoLink.textContent = "Link do GitHub: " + repo.name;
 
                 cardBody.appendChild(cardText);
                 repoCard.appendChild(cardImg);
