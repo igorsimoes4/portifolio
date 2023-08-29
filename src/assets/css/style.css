@@ -5,7 +5,7 @@
     --azul-esverdeado: #09456c;
     --azul: #23145b;
     --branco: #ffffff;
-    --cinza: #dcdcdc86;
+    --cinza: #dcdcdc48;
 }
 * {
     font-family: Arial, Helvetica, sans-serif;
@@ -15,16 +15,17 @@
 /* Largura da scrollbar */
 ::-webkit-scrollbar {
     width: 12px;
+    background-color: black;
 }
 
 /* Fundo da scrollbar */
 ::-webkit-scrollbar-track {
-    background: var(--cinza); /* Cor cinza claro */
+    background-color: var(--cinza); /* Cor cinza claro */
 }
 
 /* Cor da área visível da scrollbar */
 ::-webkit-scrollbar-thumb {
-    background: var(--verde-claro);
+    background-color: var(--verde-claro);
     border-radius: 6px;
 }
 
@@ -32,16 +33,17 @@
 /* Largura da scrollbar */
 ::-moz-scrollbar {
     width: 12px;
+    background: black;
 }
 
 /* Fundo da scrollbar */
 ::-moz-scrollbar-track {
-    background: var(--cinza); /* Cor cinza claro */
+    background-color: var(--cinza); /* Cor cinza claro */
 }
 
 /* Cor da área visível da scrollbar */
 ::-moz-scrollbar-thumb {
-    background: var(--verde-claro);
+    background-color: var(--verde-claro);
     border-radius: 6px;
 }
 
@@ -49,11 +51,12 @@
 /* Largura da scrollbar */
 ::-ms-scrollbar {
     width: 12px;
+    background: black;
 }
 
 /* Fundo da scrollbar */
 ::-ms-scrollbar-track {
-    background: var(--cinza); /* Cor cinza claro */
+    background-color: var(--cinza); /* Cor cinza claro */
 }
 
 /* Cor da área visível da scrollbar */
@@ -68,6 +71,16 @@
     color: var(--preto);
 }
 
+.detalhe {
+    height: 5px !important;
+    background-color: var(--azul-esverdeado);
+}
+
+.scroll-menu {
+    position: absolute;
+    z-index: 1000;
+    transition: top 0.3s; /* Adiciona uma transição suave ao esconder/mostrar o menu */
+}
 .nav-link {
     color: var(--branco) !important;
 }
@@ -106,6 +119,7 @@
     margin: 30px;
     color: var(--preto) !important;
     min-height: 600px;
+    margin-bottom: 50px;
 }
 .title_tecnologia {
     padding-left: 50px !important;
